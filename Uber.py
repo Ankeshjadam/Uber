@@ -52,3 +52,4 @@ df["Payment Method"] = df["Payment Method"].fillna("No Payment")
 
 
 df.to_csv("NCR_Ride_Booking_clean_Data.csv", index=False)
+
